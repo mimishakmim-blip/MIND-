@@ -1,0 +1,413 @@
+<resources>
+    <string name="app_name">MIND</string>
+    <string name="app_tagline">عقلك، وقتك، حياتك</string>
+    <string name="app_subtitle">نظام إدارة الحياة الشخصي</string>
+
+    <string name="btn_previous">السابق</string>
+    <string name="btn_next">اكمل</string>
+    <string name="btn_finish">إنهاء</string>
+
+    <string name="welcome_title">مرحباً بك في MIND</string>
+    <string name="welcome_subtitle">تطبيقك الشخصي لإدارة الحياة</string>
+    <string name="welcome_start">ابدأ الآن</string>
+    <string name="welcome_login">لديك حساب؟ سجّل الدخول</string>
+
+    <string name="q_language_title">🌐 اختر لغتك</string>
+    <string name="q_language_subtitle">Choose your language</string>
+    <string name="q_language_arabic">العربية</string>
+    <string name="q_language_english">English</string>
+
+    <string name="q_goal_title">ما هدفك الأساسي؟</string>
+    <string name="q_goal_organize">🕐 تنظيم وقتي</string>
+    <string name="q_goal_habits">🔄 بناء عادات</string>
+    <string name="q_goal_fitness">💪 اللياقة والصحة</string>
+    <string name="q_goal_study">📚 الدراسة والتعلم</string>
+    <string name="q_goal_all">✨ كل ما سبق</string>
+
+    <string name="q_time_title">كم وقتاً يومياً؟</string>
+    <string name="q_time_15">أقل من 15 دقيقة</string>
+    <string name="q_time_30">15-30 دقيقة</string>
+    <string name="q_time_60">30-60 دقيقة</string>
+    <string name="q_time_over">أكثر من ساعة</string>
+
+    <string name="q_distract_title">ما أكثر شيء يشتتك؟</string>
+    <string name="q_distract_social">📱 مواقع التواصل</string>
+    <string name="q_distract_youtube">📺 يوتيوب</string>
+    <string name="q_distract_games">🎮 الألعاب</string>
+    <string name="q_distract_procrastination">⏰ التسويف</string>
+
+    <string name="q_wake_title">متى تبدأ يومك؟</string>
+    <string name="q_wake_hours">الساعة</string>
+    <string name="q_wake_minutes">الدقيقة</string>
+    <string name="q_wake_preview">سأبدأ يومي في الساعة %s صباحاً</string>
+
+    <string name="q_name_title">ما اسمك؟</string>
+    <string name="q_name_hint">اكتب اسمك</string>
+
+    <string name="auth_title">أنشئ حسابك</string>
+    <string name="auth_subtitle">احفظ بياناتك واسترجعها في أي وقت</string>
+    <string name="auth_google">المتابعة مع Google</string>
+    <string name="auth_apple">المتابعة مع Apple</string>
+    <string name="auth_facebook">المتابعة مع Facebook</string>
+    <string name="auth_or">أو</string>
+    <string name="auth_email">البريد الإلكتروني</string>
+    <string name="auth_password">كلمة المرور</string>
+    <string name="auth_create">إنشاء حساب</string>
+    <string name="auth_login_link">لديك حساب؟ سجّل الدخول</string>
+    <string name="auth_skip">تخطى الآن</string>
+    <string name="auth_coming_soon">قريباً</string>
+
+    <string name="profile_title">أخبرنا عنك</string>
+    <string name="profile_subtitle">سنستخدم هذه المعلومات لحساب احتياجاتك</string>
+    <string name="profile_weight">الوزن (كجم)</string>
+    <string name="profile_height">الطول (سم)</string>
+    <string name="profile_age">العمر (سنة)</string>
+    <string name="profile_gender">الجنس</string>
+    <string name="profile_male">ذكر</string>
+    <string name="profile_female">أنثى</string>
+    <string name="profile_note">هذه المعلومات تُستخدم فقط لحساب احتياجاتك الغذائية والسعرات</string>
+
+    <string name="permissions_title">الأذونات</string>
+    <string name="permissions_subtitle">نحتاج بعض الأذونات لتعمل الميزات بشكل كامل</string>
+    <string name="perm_basic_group">الأذونات الأساسية</string>
+    <string name="perm_advanced_group">الأذونات المتقدمة</string>
+
+    <string name="perm_notifications">الإشعارات</string>
+    <string name="perm_notifications_desc">للتنبيهات والتذكيرات</string>
+    <string name="perm_activity">النشاط البدني</string>
+    <string name="perm_activity_desc">لعدّ خطواتك تلقائياً</string>
+    <string name="perm_sensors">المستشعرات</string>
+    <string name="perm_sensors_desc">لمراقبة نبضات القلب</string>
+    <string name="perm_location">الموقع</string>
+    <string name="perm_location_desc">لتتبع مسارات المشي</string>
+    <string name="perm_camera">الكاميرا</string>
+    <string name="perm_camera_desc">لتصوير وجباتك</string>
+    <string name="perm_microphone">الميكروفون</string>
+    <string name="perm_microphone_desc">لتسجيل ملاحظاتك</string>
+    <string name="perm_images">الصور</string>
+    <string name="perm_images_desc">لاختيار صورك</string>
+    <string name="perm_alarm">المنبهات</string>
+    <string name="perm_alarm_desc">للتنبيهات الدقيقة</string>
+
+    <string name="perm_allow">السماح</string>
+    <string name="perm_granted">تم</string>
+    <string name="perm_denied">مرفوض</string>
+    <string name="perm_unsupported">غير مدعوم</string>
+
+    <string name="ready_title">أنت جاهز! 🎉</string>
+    <string name="ready_subtitle">لقد أعدنا MIND خصيصاً لك</string>
+    <string name="ready_summary_language">اللغة</string>
+    <string name="ready_summary_name">الاسم</string>
+    <string name="ready_summary_goal">الهدف</string>
+    <string name="ready_summary_time">الوقت اليومي</string>
+    <string name="ready_start">ابدأ الرحلة</string>
+
+    <!-- Part 3: Tabs -->
+    <string name="tab_habits">العادات</string>
+    <string name="tab_data">البيانات</string>
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_achievements">الإنجازات</string>
+    <string name="tab_account">الحساب</string>
+
+    <!-- Part 3: Home -->
+    <string name="home_greeting">مرحباً، %s 👋</string>
+    <string name="home_default_name">صديقي</string>
+    <string name="home_daily_goal">هدف اليوم</string>
+    <string name="home_habits_count">%1$d من %2$d عادات</string>
+    <string name="home_habits_card">العادات</string>
+    <string name="home_habits_completed">%1$d من %2$d مكتملة</string>
+    <string name="home_quote_title">اقتباس اليوم</string>
+    <string name="home_activity">نشاطك</string>
+    <string name="home_steps">خطوات</string>
+    <string name="home_cups">أكواب</string>
+    <string name="home_calories">سعرة</string>
+
+    <!-- Part 3: Quick actions -->
+    <string name="qa_habits">العادات</string>
+    <string name="qa_sleep">النوم</string>
+    <string name="qa_pomodoro">بومودورو</string>
+    <string name="qa_fitness">اللياقة</string>
+
+    <!-- Part 3: Habits -->
+    <string name="habits_title">العادات</string>
+    <string name="habits_new">عادة جديدة</string>
+    <string name="habits_name">اسم العادة</string>
+    <string name="habits_name_hint">مثال: قراءة 30 دقيقة</string>
+    <string name="habits_icon">الأيقونة</string>
+    <string name="habits_color">اللون</string>
+    <string name="habits_time">🕐 في أي وقت؟</string>
+    <string name="habits_duration">⏱️ المدة المتاحة</string>
+    <string name="habits_reminder">🔔 ذكّرني عند الوقت</string>
+    <string name="habits_frequency">التكرار</string>
+    <string name="habits_daily">يومي</string>
+    <string name="habits_weekly">أسبوعي</string>
+    <string name="habits_custom">مخصص</string>
+    <string name="habits_save">حفظ</string>
+    <string name="habits_cancel">إلغاء</string>
+    <string name="habits_delete">حذف</string>
+    <string name="habits_empty">لا توجد عادات بعد</string>
+    <string name="habits_add_first">+ أضف عادتك الأولى</string>
+
+    <!-- Part 3: Placeholders -->
+    <string name="stats_placeholder">📊 البيانات قادمة قريباً</string>
+    <string name="achievements_placeholder">🏆 الإنجازات قادمة قريباً</string>
+    <string name="profile_placeholder">👤 الحساب قادم قريباً</string>
+
+    <!-- Part 3: Common -->
+    <string name="common_ok">موافق</string>
+    <string name="common_cancel">إلغاء</string>
+
+    <!-- Part 6: Study -->
+    <string name="study_title">الدراسة</string>
+    <string name="study_today">دراسة اليوم</string>
+    <string name="study_minutes">%d دقيقة</string>
+    <string name="study_sessions">%d جلسة</string>
+    <string name="study_focus_avg">متوسط التركيز: %s/10</string>
+    <string name="study_pomodoro">بومودورو</string>
+    <string name="study_state_idle">جاهز</string>
+    <string name="study_state_focus">تركيز</string>
+    <string name="study_state_short_break">راحة قصيرة</string>
+    <string name="study_state_long_break">راحة طويلة</string>
+    <string name="study_state_paused">متوقف</string>
+    <string name="study_start">ابدأ</string>
+    <string name="study_pause">إيقاف</string>
+    <string name="study_reset">إعادة</string>
+    <string name="study_session_counter">جلسة %1$d من %2$d</string>
+    <string name="study_settings">⚙️ إعدادات بومودورو</string>
+    <string name="study_focus_duration">التركيز</string>
+    <string name="study_short_break">راحة قصيرة</string>
+    <string name="study_long_break">راحة طويلة</string>
+    <string name="study_sessions_before_long">الجلسات</string>
+    <string name="study_auto_start">بدء تلقائي</string>
+    <string name="study_minutes_suffix">دقيقة</string>
+    <string name="study_sounds">🎵 أصوات هادئة</string>
+    <string name="study_rain">مطر</string>
+    <string name="study_forest">غابة</string>
+    <string name="study_cafe">مقهى</string>
+    <string name="study_white_noise">ضجيج أبيض</string>
+    <string name="study_recent">📖 آخر الجلسات</string>
+    <string name="study_weekly">📈 هذا الأسبوع</string>
+    <string name="study_no_sessions">لا توجد جلسات بعد</string>
+
+    <!-- Part 6: Nutrition -->
+    <string name="nutrition_title">التغذية</string>
+    <string name="nutrition_calories_today">سعرة حرارية اليوم</string>
+    <string name="nutrition_remaining">المتبقي: %d</string>
+    <string name="nutrition_consumed_of">%1$d / %2$d</string>
+    <string name="nutrition_macros">📊 الماكروز</string>
+    <string name="nutrition_protein">🥩 بروتين</string>
+    <string name="nutrition_carbs">🍞 كارب</string>
+    <string name="nutrition_fat">🥑 دهون</string>
+    <string name="nutrition_unit_grams">%d غ</string>
+    <string name="nutrition_breakfast">🌅 الفطور</string>
+    <string name="nutrition_lunch">☀️ الغداء</string>
+    <string name="nutrition_dinner">🌆 العشاء</string>
+    <string name="nutrition_snack">🍿 سناكس</string>
+    <string name="nutrition_breakfast_label">فطور</string>
+    <string name="nutrition_lunch_label">غداء</string>
+    <string name="nutrition_dinner_label">عشاء</string>
+    <string name="nutrition_snack_label">سناك</string>
+    <string name="nutrition_add">+</string>
+    <string name="nutrition_empty_meal">لا توجد وجبات</string>
+    <string name="nutrition_water">💧 الماء</string>
+    <string name="nutrition_water_count">%d من 8 أكواب</string>
+    <string name="nutrition_weekly">📈 هذا الأسبوع</string>
+    <string name="nutrition_goals">⚙️ الأهداف</string>
+    <string name="nutrition_daily_calories">السعرات اليومية</string>
+    <string name="nutrition_recalculate">إعادة الحساب من الملف</string>
+
+    <!-- Part 6: Add Meal Sheet -->
+    <string name="add_meal_title">إضافة وجبة</string>
+    <string name="add_meal_type">نوع الوجبة</string>
+    <string name="add_meal_name">اسم الطعام</string>
+    <string name="add_meal_quick">اختيار سريع</string>
+    <string name="add_meal_calories">السعرات</string>
+    <string name="add_meal_protein">بروتين</string>
+    <string name="add_meal_carbs">كارب</string>
+    <string name="add_meal_fat">دهون</string>
+    <string name="add_meal_time">الوقت</string>
+    <string name="add_meal_save">حفظ</string>
+    <string name="add_meal_cancel">إلغاء</string>
+
+    <!-- Part 7: Achievements -->
+    <string name="achievements_title">الإنجازات</string>
+    <string name="achievements_progress">%1$d / %2$d</string>
+    <string name="achievements_remaining">%d متبقية</string>
+    <string name="achievements_unlocked">✓ محقق</string>
+    <string name="achievements_locked">مقفل</string>
+    <string name="achievements_filter_all">الكل</string>
+    <string name="achievements_filter_unlocked">محقق</string>
+    <string name="achievements_filter_locked">مقفل</string>
+    <string name="achievements_category_all">الكل</string>
+    <string name="achievements_category_habits">العادات</string>
+    <string name="achievements_category_fitness">اللياقة</string>
+    <string name="achievements_category_study">الدراسة</string>
+    <string name="achievements_category_nutrition">التغذية</string>
+    <string name="achievements_category_general">عام</string>
+    <string name="achievements_new">🏆 إنجاز جديد</string>
+    <string name="achievements_continue">متابعة</string>
+    <string name="achievements_share">شارك</string>
+
+    <!-- Part 7: Journal -->
+    <string name="journal_title">المذكرات</string>
+    <string name="journal_today">اليوم</string>
+    <string name="journal_recent">آخر المذكرات</string>
+    <string name="journal_empty_hint">اكتب سطراً عن يومك...</string>
+    <string name="journal_how_was_day">كيف كان يومك؟</string>
+    <string name="journal_notes_hint">اكتب أي شيء عن يومك...</string>
+
+    <!-- Part 7: Notes -->
+    <string name="notes_title">الملاحظات</string>
+    <string name="notes_new">ملاحظة جديدة</string>
+    <string name="notes_empty">لا توجد ملاحظات</string>
+    <string name="notes_hint">اكتب ملاحظتك...</string>
+    <string name="notes_title_hint">العنوان (اختياري)</string>
+    <string name="notes_pin">تثبيت</string>
+    <string name="notes_unpin">إلغاء التثبيت</string>
+    <string name="notes_quick">ملاحظة سريعة</string>
+
+    <!-- Part 7: Common -->
+    <string name="common_back">رجوع</string>
+    <string name="common_save">حفظ</string>
+    <string name="common_delete">حذف</string>
+
+    <!-- Part 8: Sleep Tracker -->
+    <string name="sleep_title">النوم</string>
+    <string name="sleep_log_new">تسجيل النوم</string>
+    <string name="sleep_last_night">آخر ليلة نوم</string>
+    <string name="sleep_bedtime">وقت النوم</string>
+    <string name="sleep_wake_time">وقت الاستيقاظ</string>
+    <string name="sleep_quality">جودة النوم</string>
+    <string name="sleep_interruptions">مرات الاستيقاظ</string>
+    <string name="sleep_weekly_trend">مخطط الأسبوع</string>
+    <string name="sleep_weekly_average">معدل النوم</string>
+    <string name="sleep_debt">دين النوم</string>
+    <string name="sleep_hygiene_tips">نصائح لصحة النوم</string>
+    <string name="sleep_history">سجل الليالي السابقة</string>
+    <string name="sleep_empty">لا توجد سجلات نوم حتى الآن</string>
+
+    <!-- Part 9: Statistics -->
+    <string name="stats_title">البيانات</string>
+    <string name="stats_today">اليوم</string>
+    <string name="stats_yesterday">الأمس</string>
+    <string name="period_today">اليوم</string>
+    <string name="period_week">الأسبوع</string>
+    <string name="period_month">الشهر</string>
+
+    <string name="stats_today_chart">📈 تطور اليوم</string>
+    <string name="stats_week_chart">📈 تطور الأسبوع</string>
+    <string name="stats_month_chart">📈 تطور الشهر</string>
+    <string name="stats_show_yesterday">الأمس</string>
+    <string name="stats_hide">إخفاء</string>
+
+    <string name="stats_summary">📊 الملخص</string>
+    <string name="stats_improvement">✅ تحسّن! +%1$d%%</string>
+    <string name="stats_decline">⚠️ تراجع -%1$d%%</string>
+    <string name="stats_same">➡️ نفس المستوى</string>
+
+    <string name="stats_habits">عادات</string>
+    <string name="stats_steps">خطوات</string>
+    <string name="stats_water">ماء</string>
+    <string name="stats_study">دراسة</string>
+    <string name="stats_sleep">نوم</string>
+    <string name="stats_avg_habits">متوسط العادات</string>
+
+    <string name="stats_habits_chart">📈 تطور العادات</string>
+    <string name="stats_heatmap">🗓️ الخريطة الحرارية</string>
+    <string name="stats_share">📤 شارك تقدمك</string>
+    <string name="stats_empty">لا توجد بيانات بعد</string>
+
+    <string name="heatmap_less">أقل</string>
+    <string name="heatmap_more">أكثر</string>
+
+    <!-- Part 10: Settings & Final -->
+    <string name="settings_title">الحساب والإعدادات</string>
+    <string name="settings_achievements">الإنجازات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_vibration">الاهتزاز</string>
+    <string name="settings_sleep_reminder">تذكير النوم</string>
+    <string name="settings_daily_goals">الأهداف اليومية</string>
+    <string name="settings_export">تصدير البيانات</string>
+    <string name="settings_backup">نسخ احتياطي</string>
+    <string name="settings_restore">استيراد من نسخة</string>
+    <string name="settings_about">عن MIND</string>
+    <string name="settings_privacy">سياسة الخصوصية</string>
+    <string name="settings_logout">تسجيل الخروج</string>
+
+    <string name="profile_member_since">عضو منذ %s</string>
+    <string name="profile_edit">تعديل</string>
+    <string name="profile_stat_streak">أطول سلسلة</string>
+    <string name="profile_stat_steps">خطوات</string>
+    <string name="profile_stat_study">دقائق دراسة</string>
+
+    <string name="goal_steps">هدف الخطوات</string>
+    <string name="goal_water">هدف الماء</string>
+    <string name="goal_study">هدف الدراسة</string>
+    <string name="goal_habits">هدف العادات</string>
+
+    <string name="backup_success">تم النسخ الاحتياطي: %s</string>
+    <string name="restore_success">تم استرجاع البيانات بنجاح</string>
+    <string name="restore_failed">فشل استرجاع البيانات</string>
+    <string name="export_success">تم التصدير: %s</string>
+
+    <string name="logout_confirm_title">تسجيل الخروج</string>
+    <string name="logout_confirm_message">هل أنت متأكد؟ سيتم الرجوع إلى شاشة البداية، ولن تُحذف بياناتك المحفوظة.</string>
+    <string name="logout_confirm_yes">نعم، اخرج</string>
+
+    <!-- Part 9: Fitness Tracker -->
+    <string name="fitness_title">اللياقة والنشاط</string>
+    <string name="workout_add_title">تسجيل تمرين</string>
+    <string name="fitness_workouts_title">التمارين الرياضية</string>
+    <string name="workout_type_label">نوع التمرين</string>
+    <string name="workout_duration_label">المدة</string>
+    <string name="workout_intensity_label">الشدة</string>
+    <string name="intensity_low">خفيف</string>
+    <string name="intensity_medium">متوسط</string>
+    <string name="intensity_high">مكثف</string>
+    <string name="workout_calories_burned">السعرات المحروقة</string>
+    <string name="workout_distance_km">المسافة (كم)</string>
+    <string name="workout_steps">الخطوات</string>
+    <string name="workout_notes_hint">ملاحظات عن التمرين...</string>
+    <string name="workout_save_button">حفظ التمرين</string>
+    <string name="workout_delete_title">حذف التمرين</string>
+    <string name="workout_delete_confirm">هل أنت متأكد من حذف هذا التمرين؟</string>
+    <string name="water_hydration_title">الترطيب اليومي</string>
+    <string name="steps_tracker_title">تتبع الخطوات</string>
+    <string name="weekly_steps_trend">نشاط الأسبوع</string>
+    <string name="workout_empty_title">لا توجد تمارين مسجلة</string>
+    <string name="workout_empty_subtitle">ابدأ تمرينك اليوم لتحقيق أهدافك</string>
+    <string name="workout_log_now">سجّل تمرينك الآن</string>
+    <string name="fitness_tips_title">إرشادات الحركة والاستشفاء</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_pomodoro">مؤقت بومودورو</string>
+    <string name="notif_channel_pomodoro_desc">يعرض الوقت المتبقي في جلسة التركيز النشطة</string>
+    <string name="notif_channel_pomodoro_done">انتهاء جلسة بومودورو</string>
+    <string name="notif_channel_habits">تذكير العادات</string>
+    <string name="notif_channel_habits_desc">تنبيهات في وقت عاداتك اليومية</string>
+    <string name="notif_channel_sleep">تذكير النوم</string>
+    <string name="notif_channel_sleep_desc">تنبيه يومي لوقت النوم</string>
+    <string name="pomodoro_notif_title">MIND — %s</string>
+    <string name="pomodoro_notif_text">الوقت المتبقي</string>
+    <string name="pomodoro_done_title">انتهت الجلسة ✅</string>
+    <string name="pomodoro_done_text">انتهت مرحلة: %s</string>
+    <string name="reminder_habit_title">حان وقت عادتك ⏰</string>
+    <string name="reminder_sleep_title">حان وقت النوم 🌙</string>
+    <string name="reminder_sleep_text">نم الآن لتصحو غداً بنشاط وتركيز.</string>
+
+    <!-- Settings / data -->
+    <string name="settings_version">الإصدار %s</string>
+    <string name="privacy_title">سياسة الخصوصية</string>
+    <string name="privacy_body">MIND يعمل بالكامل على جهازك.\n\n• جميع بياناتك (العادات، النوم، التغذية، المذكرات...) تُخزَّن محلياً على هاتفك فقط.\n• بياناتك محلية ولا تُرسل لأي خادم إلا إذا سجّلت الدخول بحساب واخترت رفعها إلى حسابك السحابي. لا نستخدم أدوات تتبع أو إعلانات، ويُستخدم الإنترنت أيضاً لتنزيل اقتباس جديد.\n• الأذونات المطلوبة: الإشعارات (للتذكيرات) والنشاط البدني (لعدّ الخطوات) فقط.\n• يمكنك تصدير بياناتك أو حذفها في أي وقت، وحذف التطبيق يمسح كل شيء.\n\nإذا كانت لديك أسئلة، تواصل معنا عبر صفحة التطبيق.</string>
+    <string name="backup_failed">فشل إنشاء النسخة الاحتياطية</string>
+    <string name="export_failed">فشل تصدير الملف</string>
+    <string name="restore_invalid_file">الملف ليس نسخة احتياطية صالحة من MIND</string>
+    <string name="notifications_permission_needed">فعّل إذن الإشعارات من إعدادات النظام لتصلك التذكيرات</string>
+    <string name="restore_confirm_message">سيتم استبدال بياناتك الحالية بمحتوى النسخة الاحتياطية. هل تريد المتابعة؟</string>
+
+    <string name="widget_clock_desc">ساعة وتاريخ بتصميم MIND</string>
+    <string name="widget_water_desc">سجّل أكواب الماء من الشاشة الرئيسية</string>
+    <string name="widget_pomodoro_desc">افتح مؤقت التركيز بنقرة</string>
+    <string name="widget_music_desc">تحكم بمشغّل الموسيقى في هاتفك</string>
+</resources>

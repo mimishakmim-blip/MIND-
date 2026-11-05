@@ -1,0 +1,413 @@
+<resources>
+    <string name="app_name">MIND</string>
+    <string name="app_tagline">Your mind, your time, your life</string>
+    <string name="app_subtitle">Personal Life OS</string>
+
+    <string name="btn_previous">Previous</string>
+    <string name="btn_next">Continue</string>
+    <string name="btn_finish">Finish</string>
+
+    <string name="welcome_title">Welcome to MIND</string>
+    <string name="welcome_subtitle">Your Personal Life Operating System</string>
+    <string name="welcome_start">Get Started</string>
+    <string name="welcome_login">Have an account? Log In</string>
+
+    <string name="q_language_title">🌐 Choose Your Language</string>
+    <string name="q_language_subtitle">Choose your language</string>
+    <string name="q_language_arabic">العربية</string>
+    <string name="q_language_english">English</string>
+
+    <string name="q_goal_title">What is your primary goal?</string>
+    <string name="q_goal_organize">🕐 Organize My Time</string>
+    <string name="q_goal_habits">🔄 Build Strong Habits</string>
+    <string name="q_goal_fitness">💪 Fitness &amp; Health</string>
+    <string name="q_goal_study">📚 Study &amp; Learning</string>
+    <string name="q_goal_all">✨ All of the Above</string>
+
+    <string name="q_time_title">How much time daily?</string>
+    <string name="q_time_15">Less than 15 minutes</string>
+    <string name="q_time_30">15-30 minutes</string>
+    <string name="q_time_60">30-60 minutes</string>
+    <string name="q_time_over">More than an hour</string>
+
+    <string name="q_distract_title">What distracts you most?</string>
+    <string name="q_distract_social">📱 Social Media</string>
+    <string name="q_distract_youtube">📺 YouTube</string>
+    <string name="q_distract_games">🎮 Gaming</string>
+    <string name="q_distract_procrastination">⏰ Procrastination</string>
+
+    <string name="q_wake_title">When do you begin your day?</string>
+    <string name="q_wake_hours">Hour</string>
+    <string name="q_wake_minutes">Minute</string>
+    <string name="q_wake_preview">I will start my day at %s AM</string>
+
+    <string name="q_name_title">What is your name?</string>
+    <string name="q_name_hint">Type your name</string>
+
+    <string name="auth_title">Create Your Account</string>
+    <string name="auth_subtitle">Save and sync your Life OS securely</string>
+    <string name="auth_google">Continue with Google</string>
+    <string name="auth_apple">Continue with Apple</string>
+    <string name="auth_facebook">Continue with Facebook</string>
+    <string name="auth_or">or</string>
+    <string name="auth_email">Email Address</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_create">Create Account</string>
+    <string name="auth_login_link">Have an account? Log In</string>
+    <string name="auth_skip">Skip for now</string>
+    <string name="auth_coming_soon">Coming Soon</string>
+
+    <string name="profile_title">Tell Us About Yourself</string>
+    <string name="profile_subtitle">We use this to calibrate your baseline needs</string>
+    <string name="profile_weight">Weight (kg)</string>
+    <string name="profile_height">Height (cm)</string>
+    <string name="profile_age">Age (years)</string>
+    <string name="profile_gender">Gender</string>
+    <string name="profile_male">Male</string>
+    <string name="profile_female">Female</string>
+    <string name="profile_note">This information is only used to compute your metabolic and nutritional targets</string>
+
+    <string name="permissions_title">Permissions</string>
+    <string name="permissions_subtitle">We require a few device permissions for full functionality</string>
+    <string name="perm_basic_group">Essential Permissions</string>
+    <string name="perm_advanced_group">Advanced Permissions</string>
+
+    <string name="perm_notifications">Notifications</string>
+    <string name="perm_notifications_desc">For intelligent reminders and prompts</string>
+    <string name="perm_activity">Physical Activity</string>
+    <string name="perm_activity_desc">To track steps and active movement</string>
+    <string name="perm_sensors">Sensors</string>
+    <string name="perm_sensors_desc">To read heart rate and biometrics</string>
+    <string name="perm_location">Location</string>
+    <string name="perm_location_desc">To map and log walking routes</string>
+    <string name="perm_camera">Camera</string>
+    <string name="perm_camera_desc">To capture meal and journal photos</string>
+    <string name="perm_microphone">Microphone</string>
+    <string name="perm_microphone_desc">To record quick audio thoughts</string>
+    <string name="perm_images">Photos</string>
+    <string name="perm_images_desc">To attach personal gallery photos</string>
+    <string name="perm_alarm">Exact Alarms</string>
+    <string name="perm_alarm_desc">For precise focus timers</string>
+
+    <string name="perm_allow">Allow</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_denied">Denied</string>
+    <string name="perm_unsupported">Unsupported</string>
+
+    <string name="ready_title">You\'re all set! 🎉</string>
+    <string name="ready_subtitle">We have personalized MIND exclusively for you</string>
+    <string name="ready_summary_language">Language</string>
+    <string name="ready_summary_name">Name</string>
+    <string name="ready_summary_goal">Goal</string>
+    <string name="ready_summary_time">Daily Time</string>
+    <string name="ready_start">Begin Journey</string>
+
+    <!-- Part 3: Tabs -->
+    <string name="tab_habits">Habits</string>
+    <string name="tab_data">Data</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_achievements">Achievements</string>
+    <string name="tab_account">Account</string>
+
+    <!-- Part 3: Home -->
+    <string name="home_greeting">Welcome, %s 👋</string>
+    <string name="home_default_name">Friend</string>
+    <string name="home_daily_goal">Today\'s Goal</string>
+    <string name="home_habits_count">%1$d of %2$d habits</string>
+    <string name="home_habits_card">Habits</string>
+    <string name="home_habits_completed">%1$d of %2$d completed</string>
+    <string name="home_quote_title">Quote of the Day</string>
+    <string name="home_activity">Activity</string>
+    <string name="home_steps">Steps</string>
+    <string name="home_cups">Cups</string>
+    <string name="home_calories">Calories</string>
+
+    <!-- Part 3: Quick actions -->
+    <string name="qa_habits">Habits</string>
+    <string name="qa_sleep">Sleep</string>
+    <string name="qa_pomodoro">Pomodoro</string>
+    <string name="qa_fitness">Fitness</string>
+
+    <!-- Part 3: Habits -->
+    <string name="habits_title">Habits</string>
+    <string name="habits_new">New Habit</string>
+    <string name="habits_name">Habit Name</string>
+    <string name="habits_name_hint">e.g., Read 30 minutes</string>
+    <string name="habits_icon">Icon</string>
+    <string name="habits_color">Color</string>
+    <string name="habits_time">🕐 What time?</string>
+    <string name="habits_duration">⏱️ Duration</string>
+    <string name="habits_reminder">🔔 Remind me on time</string>
+    <string name="habits_frequency">Frequency</string>
+    <string name="habits_daily">Daily</string>
+    <string name="habits_weekly">Weekly</string>
+    <string name="habits_custom">Custom</string>
+    <string name="habits_save">Save</string>
+    <string name="habits_cancel">Cancel</string>
+    <string name="habits_delete">Delete</string>
+    <string name="habits_empty">No habits yet</string>
+    <string name="habits_add_first">+ Add your first habit</string>
+
+    <!-- Part 3: Placeholders -->
+    <string name="stats_placeholder">📊 Statistics coming soon</string>
+    <string name="achievements_placeholder">🏆 Achievements coming soon</string>
+    <string name="profile_placeholder">👤 Profile coming soon</string>
+
+    <!-- Part 3: Common -->
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+
+    <!-- Part 6: Study -->
+    <string name="study_title">Study</string>
+    <string name="study_today">Today\'s Study</string>
+    <string name="study_minutes">%d min</string>
+    <string name="study_sessions">%d sessions</string>
+    <string name="study_focus_avg">Average Focus: %s/10</string>
+    <string name="study_pomodoro">Pomodoro</string>
+    <string name="study_state_idle">Ready</string>
+    <string name="study_state_focus">Focus</string>
+    <string name="study_state_short_break">Short Break</string>
+    <string name="study_state_long_break">Long Break</string>
+    <string name="study_state_paused">Paused</string>
+    <string name="study_start">Start</string>
+    <string name="study_pause">Pause</string>
+    <string name="study_reset">Reset</string>
+    <string name="study_session_counter">Session %1$d of %2$d</string>
+    <string name="study_settings">⚙️ Pomodoro Settings</string>
+    <string name="study_focus_duration">Focus Duration</string>
+    <string name="study_short_break">Short Break</string>
+    <string name="study_long_break">Long Break</string>
+    <string name="study_sessions_before_long">Sessions</string>
+    <string name="study_auto_start">Auto Start Next</string>
+    <string name="study_minutes_suffix">min</string>
+    <string name="study_sounds">🎵 Ambient Sounds</string>
+    <string name="study_rain">Rain</string>
+    <string name="study_forest">Forest</string>
+    <string name="study_cafe">Cafe</string>
+    <string name="study_white_noise">White Noise</string>
+    <string name="study_recent">📖 Recent Sessions</string>
+    <string name="study_weekly">📈 This Week</string>
+    <string name="study_no_sessions">No study sessions recorded yet</string>
+
+    <!-- Part 6: Nutrition -->
+    <string name="nutrition_title">Nutrition</string>
+    <string name="nutrition_calories_today">Calories Today</string>
+    <string name="nutrition_remaining">Remaining: %d</string>
+    <string name="nutrition_consumed_of">%1$d / %2$d</string>
+    <string name="nutrition_macros">📊 Macros</string>
+    <string name="nutrition_protein">🥩 Protein</string>
+    <string name="nutrition_carbs">🍞 Carbs</string>
+    <string name="nutrition_fat">🥑 Fat</string>
+    <string name="nutrition_unit_grams">%d g</string>
+    <string name="nutrition_breakfast">🌅 Breakfast</string>
+    <string name="nutrition_lunch">☀️ Lunch</string>
+    <string name="nutrition_dinner">🌆 Dinner</string>
+    <string name="nutrition_snack">🍿 Snacks</string>
+    <string name="nutrition_breakfast_label">Breakfast</string>
+    <string name="nutrition_lunch_label">Lunch</string>
+    <string name="nutrition_dinner_label">Dinner</string>
+    <string name="nutrition_snack_label">Snack</string>
+    <string name="nutrition_add">+</string>
+    <string name="nutrition_empty_meal">No meals logged</string>
+    <string name="nutrition_water">💧 Water</string>
+    <string name="nutrition_water_count">%d of 8 cups</string>
+    <string name="nutrition_weekly">📈 This Week</string>
+    <string name="nutrition_goals">⚙️ Goals</string>
+    <string name="nutrition_daily_calories">Daily Calories</string>
+    <string name="nutrition_recalculate">Recalculate from Profile</string>
+
+    <!-- Part 6: Add Meal Sheet -->
+    <string name="add_meal_title">Add Meal</string>
+    <string name="add_meal_type">Meal Type</string>
+    <string name="add_meal_name">Food Name</string>
+    <string name="add_meal_quick">Quick Pick</string>
+    <string name="add_meal_calories">Calories</string>
+    <string name="add_meal_protein">Protein</string>
+    <string name="add_meal_carbs">Carbs</string>
+    <string name="add_meal_fat">Fat</string>
+    <string name="add_meal_time">Time</string>
+    <string name="add_meal_save">Save</string>
+    <string name="add_meal_cancel">Cancel</string>
+
+    <!-- Part 7: Achievements -->
+    <string name="achievements_title">Achievements</string>
+    <string name="achievements_progress">%1$d / %2$d</string>
+    <string name="achievements_remaining">%d remaining</string>
+    <string name="achievements_unlocked">✓ Unlocked</string>
+    <string name="achievements_locked">Locked</string>
+    <string name="achievements_filter_all">All</string>
+    <string name="achievements_filter_unlocked">Unlocked</string>
+    <string name="achievements_filter_locked">Locked</string>
+    <string name="achievements_category_all">All</string>
+    <string name="achievements_category_habits">Habits</string>
+    <string name="achievements_category_fitness">Fitness</string>
+    <string name="achievements_category_study">Study</string>
+    <string name="achievements_category_nutrition">Nutrition</string>
+    <string name="achievements_category_general">General</string>
+    <string name="achievements_new">🏆 New Achievement</string>
+    <string name="achievements_continue">Continue</string>
+    <string name="achievements_share">Share</string>
+
+    <!-- Part 7: Journal -->
+    <string name="journal_title">Journal</string>
+    <string name="journal_today">Today</string>
+    <string name="journal_recent">Recent Entries</string>
+    <string name="journal_empty_hint">Write a line about your day...</string>
+    <string name="journal_how_was_day">How was your day?</string>
+    <string name="journal_notes_hint">Write anything about your day...</string>
+
+    <!-- Part 7: Notes -->
+    <string name="notes_title">Notes</string>
+    <string name="notes_new">New Note</string>
+    <string name="notes_empty">No notes yet</string>
+    <string name="notes_hint">Write your note...</string>
+    <string name="notes_title_hint">Title (Optional)</string>
+    <string name="notes_pin">Pin</string>
+    <string name="notes_unpin">Unpin</string>
+    <string name="notes_quick">Quick Note</string>
+
+    <!-- Part 7: Common -->
+    <string name="common_back">Back</string>
+    <string name="common_save">Save</string>
+    <string name="common_delete">Delete</string>
+
+    <!-- Part 8: Sleep Tracker -->
+    <string name="sleep_title">Sleep</string>
+    <string name="sleep_log_new">Log Sleep</string>
+    <string name="sleep_last_night">Last Night\'s Sleep</string>
+    <string name="sleep_bedtime">Bedtime</string>
+    <string name="sleep_wake_time">Wake Time</string>
+    <string name="sleep_quality">Sleep Quality</string>
+    <string name="sleep_interruptions">Interruptions</string>
+    <string name="sleep_weekly_trend">Weekly Trend</string>
+    <string name="sleep_weekly_average">Average Sleep</string>
+    <string name="sleep_debt">Sleep Debt</string>
+    <string name="sleep_hygiene_tips">Sleep Hygiene Tips</string>
+    <string name="sleep_history">Sleep History</string>
+    <string name="sleep_empty">No sleep records yet</string>
+
+    <!-- Part 9: Statistics -->
+    <string name="stats_title">Statistics</string>
+    <string name="stats_today">Today</string>
+    <string name="stats_yesterday">Yesterday</string>
+    <string name="period_today">Today</string>
+    <string name="period_week">Week</string>
+    <string name="period_month">Month</string>
+
+    <string name="stats_today_chart">📈 Today\'s Progress</string>
+    <string name="stats_week_chart">📈 Weekly Progress</string>
+    <string name="stats_month_chart">📈 Monthly Progress</string>
+    <string name="stats_show_yesterday">Yesterday</string>
+    <string name="stats_hide">Hide</string>
+
+    <string name="stats_summary">📊 Summary</string>
+    <string name="stats_improvement">✅ Improvement! +%1$d%%</string>
+    <string name="stats_decline">⚠️ Decline -%1$d%%</string>
+    <string name="stats_same">➡️ Same Level</string>
+
+    <string name="stats_habits">Habits</string>
+    <string name="stats_steps">Steps</string>
+    <string name="stats_water">Water</string>
+    <string name="stats_study">Study</string>
+    <string name="stats_sleep">Sleep</string>
+    <string name="stats_avg_habits">Average Habits</string>
+
+    <string name="stats_habits_chart">📈 Habits Trend</string>
+    <string name="stats_heatmap">🗓️ Heatmap</string>
+    <string name="stats_share">📤 Share Progress</string>
+    <string name="stats_empty">No data recorded yet</string>
+
+    <string name="heatmap_less">Less</string>
+    <string name="heatmap_more">More</string>
+
+    <!-- Part 10: Settings & Final -->
+    <string name="settings_title">Account &amp; Settings</string>
+    <string name="settings_achievements">Achievements</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_sleep_reminder">Sleep Reminder</string>
+    <string name="settings_daily_goals">Daily Goals</string>
+    <string name="settings_export">Export Data</string>
+    <string name="settings_backup">Backup</string>
+    <string name="settings_restore">Restore from Backup</string>
+    <string name="settings_about">About MIND</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_logout">Log Out</string>
+
+    <string name="profile_member_since">Member since %s</string>
+    <string name="profile_edit">Edit</string>
+    <string name="profile_stat_streak">Best Streak</string>
+    <string name="profile_stat_steps">Steps</string>
+    <string name="profile_stat_study">Study Minutes</string>
+
+    <string name="goal_steps">Steps Goal</string>
+    <string name="goal_water">Water Goal</string>
+    <string name="goal_study">Study Goal</string>
+    <string name="goal_habits">Habits Goal</string>
+
+    <string name="backup_success">Backup created: %s</string>
+    <string name="restore_success">Data restored successfully</string>
+    <string name="restore_failed">Failed to restore data</string>
+    <string name="export_success">Exported: %s</string>
+
+    <string name="logout_confirm_title">Log Out</string>
+    <string name="logout_confirm_message">Are you sure? You will return to the welcome screen. Your saved data will not be deleted.</string>
+    <string name="logout_confirm_yes">Yes, Log Out</string>
+
+    <!-- Part 9: Fitness Tracker -->
+    <string name="fitness_title">Fitness &amp; Activity</string>
+    <string name="workout_add_title">Log Workout</string>
+    <string name="fitness_workouts_title">Workouts</string>
+    <string name="workout_type_label">Activity Type</string>
+    <string name="workout_duration_label">Duration</string>
+    <string name="workout_intensity_label">Intensity</string>
+    <string name="intensity_low">Light</string>
+    <string name="intensity_medium">Moderate</string>
+    <string name="intensity_high">Intense</string>
+    <string name="workout_calories_burned">Calories Burned</string>
+    <string name="workout_distance_km">Distance (km)</string>
+    <string name="workout_steps">Steps</string>
+    <string name="workout_notes_hint">Notes about the workout...</string>
+    <string name="workout_save_button">Save Workout</string>
+    <string name="workout_delete_title">Delete Workout</string>
+    <string name="workout_delete_confirm">Are you sure you want to delete this workout?</string>
+    <string name="water_hydration_title">Daily Hydration</string>
+    <string name="steps_tracker_title">Steps Tracker</string>
+    <string name="weekly_steps_trend">Weekly Activity</string>
+    <string name="workout_empty_title">No workouts logged today</string>
+    <string name="workout_empty_subtitle">Start your workout and track your progress</string>
+    <string name="workout_log_now">Log Workout Now</string>
+    <string name="fitness_tips_title">Movement &amp; Recovery Insights</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_pomodoro">Pomodoro timer</string>
+    <string name="notif_channel_pomodoro_desc">Shows the remaining time of the active focus session</string>
+    <string name="notif_channel_pomodoro_done">Pomodoro finished</string>
+    <string name="notif_channel_habits">Habit reminders</string>
+    <string name="notif_channel_habits_desc">Alerts at the time of your daily habits</string>
+    <string name="notif_channel_sleep">Sleep reminder</string>
+    <string name="notif_channel_sleep_desc">A daily alert for your bedtime</string>
+    <string name="pomodoro_notif_title">MIND — %s</string>
+    <string name="pomodoro_notif_text">Time remaining</string>
+    <string name="pomodoro_done_title">Session finished ✅</string>
+    <string name="pomodoro_done_text">%s has ended</string>
+    <string name="reminder_habit_title">Time for your habit ⏰</string>
+    <string name="reminder_sleep_title">Time to sleep 🌙</string>
+    <string name="reminder_sleep_text">Head to bed now to wake up energized tomorrow.</string>
+
+    <!-- Settings / data -->
+    <string name="settings_version">Version %s</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_body">MIND works entirely on your device.\n\n• All your data (habits, sleep, nutrition, journal...) is stored locally on your phone only.\n• Your data stays local and is sent to a server only if you sign in and choose to upload it to your cloud account. We use no trackers or ads; the internet is also used to download a fresh quote.\n• Permissions requested: notifications (for reminders) and physical activity (for step counting) only.\n• You can export or delete your data at any time, and uninstalling the app removes everything.\n\nIf you have questions, contact us through the app page.</string>
+    <string name="backup_failed">Failed to create the backup</string>
+    <string name="export_failed">Failed to export the file</string>
+    <string name="restore_invalid_file">This file is not a valid MIND backup</string>
+    <string name="notifications_permission_needed">Enable the notification permission in system settings to receive reminders</string>
+    <string name="restore_confirm_message">Your current data will be replaced with the backup contents. Continue?</string>
+
+    <string name="widget_clock_desc">Clock and date in MIND style</string>
+    <string name="widget_water_desc">Log glasses of water from your home screen</string>
+    <string name="widget_pomodoro_desc">Open the focus timer with one tap</string>
+    <string name="widget_music_desc">Control your phone music player</string>
+</resources>
